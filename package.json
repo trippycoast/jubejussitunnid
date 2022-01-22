@@ -1,0 +1,16 @@
+{
+  "name": "dokuveeb2",
+  "version": "1.0.0",
+  "description": "masendav",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "m",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.21.6"
+  }
+}
