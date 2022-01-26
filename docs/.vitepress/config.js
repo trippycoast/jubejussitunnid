@@ -1,9 +1,15 @@
-const primarySidebar = [
+const cviSidebar = [
     {text: "cvi", link:"/cvi/"}, 
     {text:"brief", link:"/cvi/brief"},
     {text:"moodboard", link:"/cvi/moodboard"},
 
 ]
+
+const logiSidebar = [
+    { text: "logi", link: "/logi/" },
+    { text: "Fonditöötlus", link: "/logi/01_fontedit" }
+]
+
 
 
 module.exports = {
@@ -13,11 +19,15 @@ module.exports = {
             { text:"Home", link:"/" },
             { text:"About", link:"/about/" },
             { text: "CVI", link: "/cvi/" },
+
         ],
-        sidebar: {
-            "/cvi/":primarySidebar,
-            "/cvi/brief":primarySidebar,
-        }
-      }
+        sidebar: 
+        {
+            "/cvi/": cviSidebar,
+            "/cvi/brief": cviSidebar,
+            "/logi/": logiSidebar,
+            "/logi/01_fontedit": logiSidebar,
+        },
+   }
   };
 
