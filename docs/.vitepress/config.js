@@ -15,8 +15,11 @@ const logiSidebar = [
 
 module.exports = {
     title: "Blog 1",
+    base:"/https://chavot.github.io/docweb1/",
     themeConfig: {
+    
         nav: [
+
             { text: "Home", link: "/" },
             { text: "About", link: "/about/" },
             { text: "Log", link: "/logi/" },
